@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+        {% csrf_token %}
+        <div id="root"></div>
+        
+        {# This will load Scripts required for dom #}
+        {% for file in files %} 
+            {% if '.js' in file %}
+                <script src="{{file}}"></script>
+            {% endif %}
+		{% endfor %}
+        
+        {# This will load css required for dom #}
+        {% for file in files %} 
+            {% if '.css' in file %} 
+                <link rel="stylesheet" href={{file}} />
+            {% endif %} 
+		{% endfor %}
+	</body>
+</html>

@@ -1,0 +1,22 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&family=Kadwa&family=Yellowtail&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Kadwa", serif;
+}
+
+.code {
+	font-family: "DM Mono", monospace;
+}
+
+.cursive {
+	font-family: "Yellowtail", cursive;
+}

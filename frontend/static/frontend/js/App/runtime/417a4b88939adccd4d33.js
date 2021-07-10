@@ -1,0 +1,1 @@
+(self.webpackChunkreact_tailwindcss_biolerplate=self.webpackChunkreact_tailwindcss_biolerplate||[]).push([[131],{131:(e,t,a)=>{"use strict";a.r(t),a.d(t,{default:()=>i});var l=a(294);function i(){return l.createElement("div",null,"This is Home Page")}}}]);

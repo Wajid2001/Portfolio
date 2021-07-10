@@ -1,0 +1,53 @@
+{
+	"main": "index.js",
+	"scripts": {
+		"start": "python manage.py runserver",
+		"migrate": "python manage.py makemigrations && python manage.py migrate",
+		"build": "webpack --mode production --config webpack.config.prod.js",
+		"dev": "webpack --watch --mode development"
+	},
+	"dependencies": {
+		"@headlessui/react": "^1.3.0",
+		"@heroicons/react": "^1.0.1",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"react-router-dom": "^5.2.0",
+		"tailwindcss": "^2.1.2"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.14.3",
+		"@babel/preset-env": "^7.14.2",
+		"@babel/preset-react": "^7.13.13",
+		"@tailwindcss/forms": "^0.3.2",
+		"autoprefixer": "^10.2.5",
+		"babel-loader": "^8.2.2",
+		"clean-webpack-plugin": "^4.0.0-alpha.0",
+		"css-loader": "^5.2.4",
+		"css-minimizer-webpack-plugin": "^2.0.0",
+		"file-loader": "^6.2.0",
+		"mini-css-extract-plugin": "^1.6.0",
+		"node-sass": "^5.0.0",
+		"postcss": "^8.2.15",
+		"postcss-import": "^14.0.2",
+		"postcss-loader": "^5.3.0",
+		"sass-loader": "^11.1.1",
+		"style-loader": "^2.0.0",
+		"terser-webpack-plugin": "^5.1.2",
+		"webpack": "^5.37.1",
+		"webpack-cli": "^4.7.2",
+		"webpack-merge": "^5.7.3"
+	},
+	"name": "react-tailwindcss-biolerplate",
+	"description": "This is tailwind css biolerplacte with React js configured for best performance by wajid 2001",
+	"version": "1.0.0",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Wajid2001/React-tailwindcss-biolerplate.git"
+	},
+	"author": "wajid2001",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Wajid2001/React-tailwindcss-biolerplate/issues"
+	},
+	"homepage": "https://github.com/Wajid2001/React-tailwindcss-biolerplate#readme"
+}
