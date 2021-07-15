@@ -36,18 +36,5 @@
 		"webpack": "^5.37.1",
 		"webpack-cli": "^4.7.2",
 		"webpack-merge": "^5.7.3"
-	},
-	"name": "react-tailwindcss-biolerplate",
-	"description": "This is tailwind css biolerplacte with React js configured for best performance by wajid 2001",
-	"version": "1.0.0",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/Wajid2001/React-tailwindcss-biolerplate.git"
-	},
-	"author": "wajid2001",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/Wajid2001/React-tailwindcss-biolerplate/issues"
-	},
-	"homepage": "https://github.com/Wajid2001/React-tailwindcss-biolerplate#readme"
+	}
 }
